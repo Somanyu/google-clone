@@ -19,7 +19,7 @@ const useGoogleSearch = (term) => {
         fetchData()
     }, [term])
 
-    return { data }
+    return { data };
 };
 
 export default useGoogleSearch;
