@@ -12,7 +12,7 @@ import RoomIcon from "@material-ui/icons/Room";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 function SearchPage() {
-
+    // eslint-disable-next-line
     const [{ term }, dispatch] = useStateValue();
     const { data } = useGoogleSearch(term); //* LIVE API CALL
 
