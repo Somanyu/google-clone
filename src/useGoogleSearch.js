@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import API_KEY from "./key";
+import API_KEY from "./keys";
 
 const CONTEXT_KEY = "248c74e8f32e5cfbe";
 
